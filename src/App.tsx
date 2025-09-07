@@ -3,10 +3,17 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { useLanguage } from './contexts/LanguageContext';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Chat from './components/Chat';
 import Home from './pages/Home';
 import About from './pages/About';
-import Events from './pages/Events';
-import Gallery from './pages/Gallery';
+import Mission from './pages/Mission';
+import PresidentMessage from './pages/PresidentMessage';
+import History from './pages/History';
+import Operations from './pages/Operations';
+import AdminTeam from './pages/AdminTeam';
+import Teachers from './pages/Teachers';
+import Courses from './pages/Courses';
+import EventsGallery from './pages/EventsGallery';
 import Contact from './pages/Contact';
 import Enroll from './pages/Enroll';
 import Timetable from './pages/Timetable';
@@ -23,8 +30,14 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/mission" element={<Mission />} />
+        <Route path="/president-message" element={<PresidentMessage />} />
+        <Route path="/history" element={<History />} />
+        <Route path="/operations" element={<Operations />} />
+        <Route path="/admin-team" element={<AdminTeam />} />
+        <Route path="/teachers" element={<Teachers />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/events-gallery" element={<EventsGallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/enroll" element={<Enroll />} />
         <Route path="/timetable" element={<Timetable />} />
@@ -34,6 +47,7 @@ const App: React.FC = () => {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
+      <Chat />
     </div>
   );
 };

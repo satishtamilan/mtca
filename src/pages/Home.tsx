@@ -31,11 +31,26 @@ function Home() {
             </div>
 
             {/* Image Section */}
-            <div className="mt-12 rounded-xl overflow-hidden">
+            <div className="mt-12 rounded-xl overflow-hidden shadow-lg">
               <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/0/08/Light-the_traditional_of_Tamil_Nadu_%28kuththu_vilakku%29.JPG"
-                className="w-full h-[400px] object-cover"
+                src="/images/tamil-lamp.jpeg"
+                alt="Traditional Tamil Kuthu Vilakku - Symbol of Knowledge and Light"
+                className="w-full h-[400px] object-cover object-bottom"
+                style={{ 
+                  backgroundColor: '#f3f4f6',
+                  objectPosition: 'center bottom'
+                }}
+                onError={(e) => {
+                  // Fallback to a placeholder if the image doesn't load
+                  const target = e.target as HTMLImageElement;
+                  target.src = "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=400&fit=crop&crop=center";
+                }}
               />
+              <div className="bg-red-50 p-4 text-center">
+                <p className="text-sm text-red-800 italic">
+                  "தமிழ் மொழி அறிவின் அருவி, அறிவின் ஒளி!" - The traditional lamp symbolizes the light of knowledge
+                </p>
+              </div>
             </div>
 
             <div className="flex space-x-4 mt-12">
