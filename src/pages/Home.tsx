@@ -8,7 +8,7 @@ function Home() {
   return (
     <div>
       {/* Hero Section with Proverb */}
-      <div className="relative min-h-[600px] bg-gray-50 py-20">
+      <div className="relative min-h-[600px] bg-gray-50 py-2">
         <div className="max-w-7xl mx-auto px-4">
           <div className="bg-white rounded-2xl shadow-sm p-12">
             {/* Proverb Section */}
@@ -53,7 +53,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="flex space-x-4 mt-12">
+            <div className="flex space-x-4 mt-6">
               <Link
                 to="/enroll"
                 className="bg-red-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition"
