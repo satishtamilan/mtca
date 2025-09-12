@@ -16,7 +16,7 @@ const Footer = () => {
               <GraduationCap className="h-8 w-8 text-red-600" />
               <div>
                 <div className="text-xl font-bold">MTCA</div>
-                <div className="text-sm text-gray-400">Est. 1985</div>
+                <div className="text-sm text-gray-400">Est. 1986</div>
               </div>
             </div>
             <p className="text-gray-400 mb-6">{t('footer.about')}</p>
@@ -41,27 +41,33 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-6">{t('footer.quickLinks')}</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/about" className="text-gray-400 hover:text-red-600 transition flex items-center">
+                <Link to="/mission" className="text-gray-400 hover:text-red-600 transition flex items-center">
                   <span className="w-1.5 h-1.5 bg-red-600 rounded-full mr-2"></span>
-                  {t('nav.about')}
+                  Who We Are
                 </Link>
               </li>
               <li>
-                <Link to="/events" className="text-gray-400 hover:text-red-600 transition flex items-center">
+                <Link to="/courses" className="text-gray-400 hover:text-red-600 transition flex items-center">
                   <span className="w-1.5 h-1.5 bg-red-600 rounded-full mr-2"></span>
-                  {t('nav.events')}
+                  Courses & Support
                 </Link>
               </li>
               <li>
-                <Link to="/gallery" className="text-gray-400 hover:text-red-600 transition flex items-center">
+                <Link to="/events-gallery" className="text-gray-400 hover:text-red-600 transition flex items-center">
                   <span className="w-1.5 h-1.5 bg-red-600 rounded-full mr-2"></span>
-                  {t('nav.gallery')}
+                  Events & Gallery
+                </Link>
+              </li>
+              <li>
+                <Link to="/admin" className="text-gray-400 hover:text-red-600 transition flex items-center">
+                  <span className="w-1.5 h-1.5 bg-red-600 rounded-full mr-2"></span>
+                  Administrative Info
                 </Link>
               </li>
               <li>
                 <Link to="/contact" className="text-gray-400 hover:text-red-600 transition flex items-center">
                   <span className="w-1.5 h-1.5 bg-red-600 rounded-full mr-2"></span>
-                  {t('nav.contact')}
+                  Contact Us
                 </Link>
               </li>
             </ul>
@@ -73,19 +79,19 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 text-red-600 mr-3 mt-1 flex-shrink-0" />
-                <span className="text-gray-400">123 Community Center, Birmingham, UK</span>
+                <span className="text-gray-400">Hodge Hill Girls School<br />Bromford Road<br />Birmingham, B36 8EY</span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 text-red-600 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">+44 123 456 7890</span>
+                <a href="tel:01213511305" className="text-gray-400 hover:text-red-600 transition">0121 351 1305</a>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 text-red-600 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">info@midlandstamilculture.org</span>
+                <a href="mailto:midlandstamilca@gmail.com" className="text-gray-400 hover:text-red-600 transition">midlandstamilca@gmail.com</a>
               </li>
               <li className="flex items-center">
                 <Clock className="w-5 h-5 text-red-600 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">Sat-Sun: 10:00 AM - 7:00 PM</span>
+                <span className="text-gray-400">Saturdays: 08:30am - 02:00pm</span>
               </li>
             </ul>
           </div>

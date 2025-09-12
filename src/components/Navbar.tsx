@@ -56,10 +56,10 @@ const Navbar = () => {
       {/* Top Bar */}
       <div className="bg-red-600 text-white py-2">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-          <div className="flex items-center space-x-4">
-            <a href="tel:+441234567890" className="text-sm hover:text-gray-200">+44 123 456 7890</a>
-            <a href="mailto:info@midlandstamilculture.org" className="text-sm hover:text-gray-200">info@midlandstamilculture.org</a>
-          </div>
+                <div className="flex items-center space-x-4">
+                  <a href="tel:01213511305" className="text-sm hover:text-gray-200">0121 351 1305</a>
+                  <a href="mailto:midlandstamilca@gmail.com" className="text-sm hover:text-gray-200">midlandstamilca@gmail.com</a>
+                </div>
           <LanguageSwitch />
         </div>
       </div>

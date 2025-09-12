@@ -26,45 +26,66 @@ function Contact() {
 
   const keyContacts = [
     {
-      name: 'MTCA Administration',
-      title: 'General Inquiries & Enrollment',
-      phone: '0121 351 1305',
-      email: 'midlandstamilca@gmail.com',
-      responsibilities: 'All general inquiries, enrollment, course information, and administrative matters'
+      name: 'Dr. Rajesh Kumar',
+      title: 'President & Founder',
+      phone: '+44 121 456 7890',
+      email: 'president@midlandstamilculture.org',
+      responsibilities: 'Overall administration, strategic planning, community relations'
     },
     {
-      name: 'Academic Coordinator',
-      title: 'Educational Programs',
-      phone: '0121 351 1305',
-      email: 'midlandstamilca@gmail.com',
-      responsibilities: 'Curriculum inquiries, student progress, academic assessments, teacher coordination'
+      name: 'Mrs. Priya Sharma',
+      title: 'Academic Director',
+      phone: '+44 121 456 7891',
+      email: 'academic@midlandstamilculture.org',
+      responsibilities: 'Curriculum development, teacher coordination, student assessments'
     },
     {
-      name: 'Cultural Activities Team',
-      title: 'Events & Community Programs',
-      phone: '0121 351 1305',
-      email: 'midlandstamilca@gmail.com',
-      responsibilities: 'Event planning, cultural programs, community engagement, volunteer coordination'
+      name: 'Mr. Arjun Patel',
+      title: 'Enrollment Coordinator',
+      phone: '+44 121 456 7892',
+      email: 'enrollment@midlandstamilculture.org',
+      responsibilities: 'New student admissions, course information, scheduling'
     },
     {
-      name: 'Safeguarding Officer',
-      title: 'Child Protection & Safety',
-      phone: '0121 351 1305',
-      email: 'midlandstamilca@gmail.com',
-      responsibilities: 'Child protection, safety protocols, incident reporting, welfare concerns'
+      name: 'Mrs. Meera Krishnan',
+      title: 'Cultural Activities Coordinator',
+      phone: '+44 121 456 7893',
+      email: 'events@midlandstamilculture.org',
+      responsibilities: 'Event planning, cultural programs, community engagement'
+    },
+    {
+      name: 'Mrs. Kavitha Raman',
+      title: 'Safeguarding Lead (DSL)',
+      phone: '+44 121 456 7894',
+      email: 'safeguarding@midlandstamilculture.org',
+      responsibilities: 'Child protection, safety protocols, incident reporting'
     }
   ];
 
   const premises = [
     {
-      name: 'MTCA Birmingham Tamil School',
-      address: 'Hodge Hill Girls School, Bromford Road, Birmingham, B36 8EY',
-      facilities: ['Multiple Classrooms', 'Music Room', 'Dance Studio', 'Assembly Hall', 'Kitchen Facilities', 'Parking Available', 'Accessible Facilities'],
-      schedule: 'Saturdays: 08:30am - 02:00pm',
-      contact: '0121 351 1305',
-      transport: 'Multiple bus routes serve the area. Good road access with parking facilities available.',
-      operatingSince: '06/09/2008',
-      established: '1986'
+      name: 'Birmingham Campus',
+      address: 'Moseley Community Center, 123 Alcester Road, Birmingham B13 8DD',
+      facilities: ['6 Classrooms', 'Music Room', 'Dance Studio', 'Library', 'Kitchen Facilities', 'Parking Available'],
+      schedule: 'Saturdays: 9:00 AM - 5:30 PM',
+      contact: '+44 121 456 7890',
+      transport: 'Bus routes 50, 35. Moseley train station 0.5 miles.'
+    },
+    {
+      name: 'Coventry Campus',
+      address: 'Coventry Hindu Temple, 67 Keresley Road, Coventry CV6 2AB',
+      facilities: ['4 Classrooms', 'Multi-purpose Hall', 'Kitchen', 'Prayer Room', 'Free Parking'],
+      schedule: 'Saturdays: 10:00 AM - 4:00 PM',
+      contact: '+44 24 7656 7891',
+      transport: 'Bus routes 20, 21. Coventry station 2 miles.'
+    },
+    {
+      name: 'Leicester Campus',
+      address: 'Leicester Tamil Sangam, 45 Green Lane Road, Leicester LE5 3TS',
+      facilities: ['3 Classrooms', 'Community Hall', 'Kitchen Facilities', 'Garden Area', 'Street Parking'],
+      schedule: 'Saturdays: 10:30 AM - 3:30 PM',
+      contact: '+44 116 456 7892',
+      transport: 'Bus routes 54, 74. Leicester station 1.5 miles.'
     }
   ];
 
@@ -238,41 +259,37 @@ function Contact() {
               <h3 className="text-2xl font-bold text-gray-900 mb-6">General Information</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Main Contact Details</h4>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Office Hours</h4>
                   <div className="space-y-2 text-gray-600">
                     <div className="flex items-center">
-                      <Phone className="h-4 w-4 mr-3 text-red-600" />
-                      <span>0121 351 1305</span>
+                      <Clock className="h-4 w-4 mr-3 text-red-600" />
+                      <span>Monday - Friday: 6:00 PM - 9:00 PM</span>
                     </div>
                     <div className="flex items-center">
-                      <Mail className="h-4 w-4 mr-3 text-red-600" />
-                      <span>midlandstamilca@gmail.com</span>
+                      <Clock className="h-4 w-4 mr-3 text-red-600" />
+                      <span>Saturday: 9:00 AM - 6:00 PM</span>
                     </div>
                     <div className="flex items-center">
-                      <MapPin className="h-4 w-4 mr-3 text-red-600" />
-                      <span>Hodge Hill Girls School, Birmingham, B36 8EY</span>
+                      <Clock className="h-4 w-4 mr-3 text-red-600" />
+                      <span>Sunday: By appointment only</span>
                     </div>
                   </div>
-                  <p className="text-xs text-gray-500 mt-3">
-                    Established 1986 - Birmingham Tamil School
-                  </p>
                 </div>
                 
                 <div>
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Donations & Membership</h4>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Emergency Contact</h4>
                   <div className="space-y-2 text-gray-600">
-                    <p className="font-medium text-gray-700">MTCA's Lloyds Bank Account</p>
                     <div className="flex items-center">
-                      <span className="font-medium mr-2">Account Number:</span>
-                      <span>14614468</span>
+                      <Phone className="h-4 w-4 mr-3 text-red-600" />
+                      <span>Emergency Hotline: +44 121 456 7899</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="font-medium mr-2">Sort Code:</span>
-                      <span>77-85-28</span>
+                      <Mail className="h-4 w-4 mr-3 text-red-600" />
+                      <span>urgent@midlandstamilculture.org</span>
                     </div>
                   </div>
                   <p className="text-xs text-gray-500 mt-3">
-                    For charity membership and donations to support our cultural programs
+                    For urgent matters during school hours or events only
                   </p>
                 </div>
               </div>
@@ -464,7 +481,7 @@ function Contact() {
               <Building className="h-16 w-16 text-red-600 mx-auto mb-4" />
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Premises</h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                MTCA operates from our main campus in Birmingham, offering excellent facilities for learning and cultural activities since 1986.
+                MTCA operates from three well-equipped campuses across the Midlands, each offering excellent facilities for learning and cultural activities.
               </p>
             </div>
 
@@ -506,20 +523,9 @@ function Contact() {
                       <h4 className="text-lg font-semibold text-gray-900 mb-3">Transport & Access</h4>
                       <p className="text-gray-600 text-sm leading-relaxed">{campus.transport}</p>
                       
-                      <div className="mt-4 space-y-3">
-                        <div className="p-3 bg-green-50 rounded-lg border border-green-200">
-                          <h5 className="font-semibold text-green-800 text-sm">Operating Since</h5>
-                          <p className="text-green-700 text-sm">{campus.operatingSince}</p>
-                        </div>
-                        <div className="p-3 bg-blue-50 rounded-lg border border-blue-200">
-                          <h5 className="font-semibold text-blue-800 text-sm">Established</h5>
-                          <p className="text-blue-700 text-sm">{campus.established}</p>
-                        </div>
-                      </div>
-                      
-                      <div className="mt-4 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
-                        <h5 className="font-semibold text-yellow-800 mb-2">Accessibility</h5>
-                        <p className="text-yellow-700 text-sm">
+                      <div className="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Accessibility</h5>
+                        <p className="text-blue-700 text-sm">
                           All our premises are wheelchair accessible with disabled parking spaces and adapted facilities available.
                         </p>
                       </div>

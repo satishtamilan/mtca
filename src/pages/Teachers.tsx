@@ -7,58 +7,92 @@ function Teachers() {
 
   const teachers = [
     {
-      name: 'Mrs. Meera Krishnan',
-      subject: 'Tamil Language (Grades 1-5)',
-      qualification: 'M.A. Tamil Literature, B.Ed',
-      experience: '12+ years',
+      name: 'Mrs. Sivayogi Sivayogaiswaran',
+      subject: 'Tamil Language',
+      qualification: 'Tamil Tutor',
       image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=150&h=150&fit=crop&crop=face',
-      specializations: ['Tamil Grammar', 'Children\'s Literature', 'Creative Writing', 'Phonetics'],
-      achievements: ['BTEB Certified Trainer', 'Best Teacher Award 2022', 'Curriculum Developer']
+      specializations: ['Tamil Grammar', 'Language Instruction', 'Student Assessment', 'Curriculum Development'],
+      contact: 'midlandstamilca@gmail.com'
     },
     {
-      name: 'Mr. Arjun Nair',
-      subject: 'Tamil Language (Grades 6-9)',
-      qualification: 'M.A. Tamil, PGCE',
-      experience: '10+ years',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
-      specializations: ['Advanced Grammar', 'Literature Analysis', 'Essay Writing', 'Oral Communication'],
-      achievements: ['PGCE Qualified', 'Tamil Literature Expert', 'Examination Board Member']
-    },
-    {
-      name: 'Mrs. Divya Raman',
-      subject: 'Cultural Programs & Dance',
-      qualification: 'Bharatanatyam Acharya, M.A. Fine Arts',
-      experience: '15+ years',
+      name: 'Mrs. Kavitha Pandian',
+      subject: 'Tamil Language',
+      qualification: 'Tamil Tutor',
       image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face',
-      specializations: ['Bharatanatyam', 'Classical Dance', 'Cultural Events', 'Performance Arts'],
-      achievements: ['Kalaimamani Award', 'International Performer', 'Cultural Ambassador']
+      specializations: ['Tamil Literature', 'Reading Comprehension', 'Writing Skills', 'Cultural Context'],
+      contact: 'midlandstamilca@gmail.com'
     },
     {
-      name: 'Mr. Karthik Subramanian',
-      subject: 'Advanced Tamil (A-Levels)',
-      qualification: 'Ph.D. Tamil Studies, M.Ed',
-      experience: '20+ years',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
-      specializations: ['Advanced Literature', 'Research Methods', 'Academic Writing', 'Linguistics'],
-      achievements: ['Ph.D. in Tamil Studies', 'Published Author', 'Academic Researcher']
-    },
-    {
-      name: 'Mrs. Sangeetha Venkat',
-      subject: 'Sangeetham (Carnatic Music)',
-      qualification: 'Sangeetha Vidwan, M.A. Music',
-      experience: '18+ years',
+      name: 'Mrs. Vijayalakshmi Thirugnanarajah',
+      subject: 'Tamil Language',
+      qualification: 'Tamil Tutor',
       image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=150&h=150&fit=crop&crop=face',
-      specializations: ['Carnatic Vocals', 'Raga Theory', 'Composition', 'Performance Training'],
-      achievements: ['Sangeetha Vidwan Title', 'Concert Artist', 'Music Composer']
+      specializations: ['Conversational Tamil', 'Pronunciation', 'Interactive Learning', 'Student Engagement'],
+      contact: 'midlandstamilca@gmail.com'
     },
     {
-      name: 'Mr. Ravi Shankar',
-      subject: 'Miruthangam & Percussion',
-      qualification: 'Laya Vidwan, Diploma in Percussion',
-      experience: '16+ years',
+      name: 'Mrs. Vathsala Suthakar',
+      subject: 'Tamil Language',
+      qualification: 'Tamil Tutor',
+      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face',
+      specializations: ['Tamil Script', 'Beginner Instruction', 'Foundation Skills', 'Patient Teaching'],
+      contact: 'midlandstamilca@gmail.com'
+    },
+    {
+      name: 'Mrs. Shanthi Mohan',
+      subject: 'Tamil Language',
+      qualification: 'Tamil Tutor',
+      image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=150&h=150&fit=crop&crop=face',
+      specializations: ['Advanced Tamil', 'Exam Preparation', 'Literary Analysis', 'Academic Writing'],
+      contact: 'midlandstamilca@gmail.com'
+    },
+    {
+      name: 'Mr. Danujan Sivanesan',
+      subject: 'Miruthangam',
+      qualification: 'Miruthangam Tutor',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
-      specializations: ['Mridangam', 'Tabla', 'Rhythm Theory', 'Accompaniment'],
-      achievements: ['Laya Vidwan Title', 'Professional Accompanist', 'Rhythm Specialist']
+      specializations: ['Mridangam Technique', 'Rhythm Patterns', 'Traditional Percussion', 'Performance Skills'],
+      contact: 'midlandstamilca@gmail.com'
+    },
+    {
+      name: 'Mr. A.G. Lakshmanan',
+      subject: 'Carnatic Music',
+      qualification: 'Carnatic Music Tutor',
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
+      specializations: ['Carnatic Vocals', 'Raga Theory', 'Classical Compositions', 'Music Appreciation'],
+      contact: 'midlandstamilca@gmail.com'
+    },
+    {
+      name: 'Miss. Arseca Suthakar',
+      subject: 'Bharatanatyam',
+      qualification: 'Bharatanatyam Tutor',
+      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face',
+      specializations: ['Classical Dance', 'Traditional Choreography', 'Cultural Expression', 'Performance Training'],
+      contact: 'midlandstamilca@gmail.com'
+    },
+    {
+      name: 'Mr. Sivalingham Selvaraj',
+      subject: 'Silambam',
+      qualification: 'Silambam Tutor',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
+      specializations: ['Traditional Martial Arts', 'Stick Fighting', 'Physical Fitness', 'Cultural Heritage'],
+      contact: 'midlandstamilca@gmail.com'
+    },
+    {
+      name: 'Mrs. Satheesna Kiritharan',
+      subject: 'Veena',
+      qualification: 'Veena Tutor',
+      image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=150&h=150&fit=crop&crop=face',
+      specializations: ['Classical Veena', 'String Instruments', 'Traditional Music', 'Instrumental Technique'],
+      contact: 'midlandstamilca@gmail.com'
+    },
+    {
+      name: 'Miss. Krithiha Kiritharan',
+      subject: 'Violin',
+      qualification: 'Violin Tutor',
+      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face',
+      specializations: ['Carnatic Violin', 'String Technique', 'Musical Expression', 'Accompaniment Skills'],
+      contact: 'midlandstamilca@gmail.com'
     }
   ];
 
@@ -97,8 +131,7 @@ function Teachers() {
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-gray-900">{teacher.name}</h3>
                     <p className="text-red-600 font-medium mb-1">{teacher.subject}</p>
-                    <p className="text-gray-600 text-sm mb-2">{teacher.qualification}</p>
-                    <p className="text-gray-500 text-sm mb-4">{teacher.experience}</p>
+                    <p className="text-gray-600 text-sm mb-4">{teacher.qualification}</p>
                     
                     <div className="mb-4">
                       <h4 className="font-medium text-gray-900 mb-2">Specializations:</h4>
@@ -111,13 +144,11 @@ function Teachers() {
                       </div>
                     </div>
                     
-                    <div>
-                      <h4 className="font-medium text-gray-900 mb-2">Achievements:</h4>
-                      <ul className="text-sm text-gray-600 space-y-1">
-                        {teacher.achievements.map((achievement, idx) => (
-                          <li key={idx}>• {achievement}</li>
-                        ))}
-                      </ul>
+                    <div className="flex items-center text-sm text-gray-600">
+                      <GraduationCap className="h-4 w-4 mr-2" />
+                      <a href={`mailto:${teacher.contact}`} className="hover:text-red-600">
+                        Contact Teacher
+                      </a>
                     </div>
                   </div>
                 </div>
